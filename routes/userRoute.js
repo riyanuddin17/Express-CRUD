@@ -21,7 +21,7 @@ route.get("/getallusers", fetch) // So the whole path would be http://localhost:
 
 
 route.post ("/create",create)   // So the whole path would be http://localhost:5001//api/user/create
-route.put("/update/:id", update)  // So the whole path would be http://localhost:5001//api/user/update
-route.delete("/delete/:id",deleteUser) // So the whole path would be http://localhost:5001//api/user/deleteUser
+route.put("/update/:id", update)  // So the whole path would be http://localhost:5001//api/user/update/<user_id>
+route.delete("/delete/:id",deleteUser) // So the whole path would be http://localhost:5001//api/user/deleteUser/<user_id>
 
 export default route;
